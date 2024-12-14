@@ -1,0 +1,23 @@
+.ai-profile-summary {
+    margin: 12px 0;
+    padding: 12px 16px;
+    background-color: #f3f6f8;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    border-left: 4px solid #0a66c2;
+    position: relative;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
